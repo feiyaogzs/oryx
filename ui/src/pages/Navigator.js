@@ -44,13 +44,7 @@ export default function Navigator({initialized, token, localChanged}) {
     <Navbar>
       <Container fluid className={{color:'#fff'}}>
         <Navbar.Brand>
-          <img
-            src={logo}
-            width="64"
-            height="30"
-            className="d-inline-block align-top"
-            alt="Oryx"
-          />
+         
         </Navbar.Brand>
         <Nav className='me-auto' variant="pills" activeKey={activekey}>
           {navs.map((e, index) => {
