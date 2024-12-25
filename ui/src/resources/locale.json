@@ -28,7 +28,6 @@
         "prometheus": "在Prometheus中打开"
       },
       "scenario": {
-        "tutorials": "教程",
         "live": "推拉流",
         "stream": "直播间",
         "srt": "超清实时直播",
@@ -151,8 +150,8 @@
         "nginxBackendRequired": "请输入后端服务的地址"
       },
       "coms": {
-        "srs4": "SRS(稳定版)",
-        "srs5": "SRS(开发版)",
+        "srs4": "(稳定版)",
+        "srs5": "(开发版)",
         "hooks": "Hooks(回调)",
         "ffmpeg": "FFmpeg(流处理)",
         "tencent": "Tencent(腾讯云)",
@@ -177,7 +176,7 @@
         "version": "你的版本",
         "stable": "稳定版本",
         "latest": "最新版本",
-        "versionLink": "https://ossrs.net/lts/zh-cn/faq-oryx#changelog",
+        "versionLink": "https://#",
         "autoUpgrade": "自动更新",
         "autoUpgradeTip": "是否自动更新到稳定版本",
         "upgradeManually": "若需要升级，请手动重装，或者更新镜像版本"
@@ -366,7 +365,7 @@
       },
       "cb": {
         "title": "场景介绍",
-        "summary": "设置回调后，Oryx会发起HTTP请求，回调你的服务，支持HTTP或HTTPS地址",
+        "summary": "设置回调后，系统会发起HTTP请求，回调你的服务，支持HTTP或HTTPS地址",
         "usage1": "实现更加高级的鉴权，比如只有在某些时间段才允许推流",
         "usage2": "实现数据统计和分析，可以通过回调获取流的信息和状态",
         "setting": "回调设置",
@@ -1140,7 +1139,6 @@
         "prometheus": "Show in Prometheus"
       },
       "scenario": {
-        "tutorials": "Tutorials",
         "live": "Streaming",
         "stream": "LiveRoom",
         "srt": "Low Latency",
