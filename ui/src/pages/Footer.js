@@ -40,8 +40,8 @@ function FooterImpl() {
     <Container fluid>
       <p></p>
       <p className="text-center">
-        <a href='https://github.com/ossrs/oryx' target='_blank' rel='noreferrer'>
-          &copy;Oryx/v{versions?.data?.version}
+        <a href='#' target='_blank' rel='noreferrer'>
+          &copy;v{versions?.data?.version}
         </a>
         &nbsp; <a href='https://beian.miit.gov.cn' target='_blank' rel='noreferrer'>{beian?.icp}</a>
       </p>
