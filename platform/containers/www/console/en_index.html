@@ -2,7 +2,7 @@
 <html ng-app="scApp">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>SRS控制台</title>
+    <title>控制台</title>
     <link rel="stylesheet" type="text/css" href="js/3rdparty/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="js/srs.console.css"/>
     <style>
@@ -24,20 +24,16 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" href="https://github.com/ossrs/srs" target="_blank">SRS</a>
+                <a class="brand" href="#" target="_blank">admin</a>
                 <ul class="nav">
-                    <li class="{{'/console'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/connect')">ConnectSRS</a></li>
+                    <li class="{{'/console'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/connect')">Connect</a></li>
                     <li class="{{'/summaries'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/summaries')">Overview</a></li>
                     <li class="{{'/vhosts'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/vhosts')">Vhosts</a></li>
                     <li class="{{'/streams'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/streams')">Streams</a></li>
                     <li class="{{'/clients'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/clients')">Clients</a></li>
                     <li class="{{'/configs'| sc_filter_nav_active}}"><a href="javascript:void(0)" ng-click="gogogo('/configs')">Config</a></li>
                     <li><a href="javascript:void(0)" ng-click="redirect('en_index.html', 'ng_index.html')">Chinese</a></li>
-                    <li>
-                        <a href="https://github.com/ossrs/srs">
-                            <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ossrs/srs?style=social">
-                        </a>
-                    </li>
+                
                 </ul>
             </div>
         </div>
@@ -52,13 +48,8 @@
     <footer class="footer">
         <div class="container">
             <ul class="footer-links">
-                <li>&copy; SRS 2020</li>
-                <li class="muted">|</li>
-                <li><a href="http://ossrs.net/" target="_blank">Releases</a></li>
-                <li class="muted">|</li>
-                <li><a href="https://github.com/ossrs/srs" target="_blank">SRS</a></li>
-                <li class="muted">|</li>
-                <li><a href="https://github.com/ossrs/srs-console" target="_blank">Github</a></li>
+                <li>&copy;2024</li>
+            
             </ul>
         </div>
     </footer>
