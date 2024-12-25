@@ -199,7 +199,7 @@ function ScenarioCameraImpl({defaultActiveKey, defaultSecrets}) {
             <Accordion.Header>场景介绍</Accordion.Header>
             <Accordion.Body>
               <div>
-                摄像头直播，是将一个摄像头的流，用FFmpeg转成直播流，推送到Oryx或其他平台。
+                摄像头直播，是将一个摄像头的流，用FFmpeg转成直播流，推送到这里或其他平台。
                 <p></p>
               </div>
               <p>可应用的具体场景包括：</p>
