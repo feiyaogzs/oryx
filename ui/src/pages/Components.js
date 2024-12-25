@@ -59,7 +59,7 @@ function ComponentsImpl() {
                 <Card.Text as={Col}>
                   {t('coms.version')}: {status?.version} <br/>
                   {t('coms.stable')}: {status?.version}<br/>
-                  {t('coms.latest')}: <a href={t('coms.versionLink')} target='_blank' rel='noreferrer'>{status?.version}</a>
+                
                 </Card.Text>
               </Card.Body>
             </Card>
